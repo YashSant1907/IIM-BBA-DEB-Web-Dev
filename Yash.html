@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Harsh Saxena</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <div class="container">
+            <nav>
+                <h2><span id="first-l">H</span>ARSH</h2>
+                <ul>
+                    <li><a href="#home" class="list-item">Home</a></li>
+                    <li><a href="#about" class="list-item">About</a></li>
+                    <li><a href="#services" class="list-item">Services</a></li>
+                    <li><a href="#portfolio" class="list-item">Portfolio</a></li>
+                    <li><a href="#contact" class="list-item">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-container">
+                <p>Frontend Developer</p>
+                <h1 class="first-class">Hi, I am <span class="span1">Yash</span> <strong>Kumar</strong> Sant <br> from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="Rows">
+                <div class="aboutcol1">
+                    <img src="images/harshimg2.jpg" class="img-settle" alt="Harsh Image">
+                </div>
+                <div class="col2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+
+                    <div class="skill-content active-tab" id="skills">
+                        <ul>
+                            <li><span class="span-details">Frontend Development</span><br>HTML, CSS, JavaScript</li>
+                            <li><span class="span-details">Backend Development</span><br>Java, Spring Boot</li>
+                            <li><span class="span-details">Robotics</span><br>Arduino Deployment</li>
+                            <li><span class="span-details">Data Structures & Algorithms</span><br>Solving on LeetCode</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-content" id="education">
+                        <ul>
+                            <li><span class="span-details">UIET, Panjab University</span><br>Pursuing Electrical and Electronics Engineering</li>
+                            <li><span class="span-details">University Model School, Agra</span><br>Senior Secondary (PCM), CBSE - 2023</li>
+                            <li><span class="span-details">All Saints School</span><br>Primary Education, CBSE - 2021</li>
+                            <li><span class="span-details">JEE Mains Qualified</span><br>93 Percentile (2024)</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-content" id="experience">
+                        <ul>
+                            <li><span class="span-details">Robotics Projects</span><br>Currently working on multiple robotics-based projects</li>
+                            <li><span class="span-details">Frontend Projects</span><br>Completed several frontend development projects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="survive">
+                <div class="services-list">
+                    <h2 class="same">Open Source</h2>
+                    <p>Contributing to GSoC with guidance from <b>Mr. Harkirat Singh</b>. <br>Experience in open-source builds motivation and skills.<br>
+                        <a href="https://harkirat.classx.co.in/new-courses" class="links">Learn More...</a></p>
+                </div>
+
+                <div class="services-list">
+                    <h2 class="same">Freelancing</h2>
+                    <p>Coming Soon...</p>
+                </div>
+
+                <div class="services-list">
+                    <h2 class="same">Hackathons</h2>
+                    <p>Participating Soon...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio" class="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="Social Media App">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Connects you to talented people around the world.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="Music App">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Discover and stream music globally.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="Shopping App">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Buy anything from anywhere, anytime.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="contact-form">
+        <div class="container-form">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p>Email: <a href="mailto:Saxenaharsh50984@gmail.com" class="gmail">Saxenaharsh50984@gmail.com</a></p>
+                    <p>Contact No.: <a href="tel:+918077246637" class="gmail">+91 8077246637</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/monotonousharsh__/"><i class="fa fa-instagram" style="font-size:48px;color:red"></i></a>
+                        <a href="https://www.linkedin.com/in/harsh-saxena-b4698a300"><i class="fa fa-linkedin-square" style="font-size:48px;color:rgb(12, 112, 226);"></i></a>
+                        <a href="https://twitter.com/HarshSaxen67929"><i class="fa fa-twitter-square" style="font-size:48px;color:rgb(12, 112, 226)"></i></a>
+                        <a href="https://t.me/Liac_Harsh"><i class="fa fa-telegram" style="font-size:48px;color:rgb(12, 112, 226)"></i></a>
+                    </div>
+                    <a class="btn btn1" href="images/resume_Harsh1.pdf" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Enter Your Name..." required>
+                        <input type="email" name="E-MAIL" placeholder="Enter Your Email..." required>
+                        <textarea name="message" rows="7" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Conditions of Use | Privacy Notice | Your Ads Privacy Choices <br>© Harsh Saxena</p>
+        <p>Made with <i class="fa fa-heart" style="color:red;"></i> by Yash Kumar Sant</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="Script.js"></script>
+</body>
+</html>
